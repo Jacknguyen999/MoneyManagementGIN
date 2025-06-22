@@ -1,0 +1,50 @@
+# Git
+.git
+.gitignore
+
+# Documentation
+README.md
+
+# Environment files
+.env
+*.env
+!.env.example
+
+# Logs
+*.log
+
+# Runtime data
+*.pid
+*.seed
+
+# Coverage reports
+*.cover
+coverage.txt
+
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+main
+
+# Go specific
+vendor/
+*.test
+*.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile*
+docker-compose*
+.dockerignore 
